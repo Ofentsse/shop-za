@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  background: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+a,
+input {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+@layer components {
+  .page-shell {
+    @apply mx-auto w-full max-w-[1240px] px-4 sm:px-6 lg:px-8;
+  }
+
+  .display-title {
+    font-family:
+      "Arial Black",
+      Arial,
+      Helvetica,
+      sans-serif;
+
+    font-weight: 900;
+    letter-spacing: -0.045em;
+  }
+
+  .brand-serif {
+    font-family:
+      Georgia,
+      "Times New Roman",
+      serif;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.sparkle {
+  position: absolute;
+  z-index: 5;
+  width: 48px;
+  height: 48px;
+  background: #000000;
+
+  clip-path: polygon(
+    50% 0%,
+    61% 36%,
+    100% 50%,
+    61% 64%,
+    50% 100%,
+    39% 64%,
+    0% 50%,
+    39% 36%
+  );
+}
+
+.sparkle-small {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 1023px) {
+  .sparkle {
+    width: 42px;
+    height: 42px;
+  }
+
+  .sparkle-small {
+    width: 24px;
+    height: 24px;
+  }
+}
