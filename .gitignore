@@ -1,0 +1,293 @@
+# ============================================
+# DEPENDENCIES
+# ============================================
+/node_modules
+/.pnp
+.pnp.js
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# ============================================
+# BUILD OUTPUTS
+# ============================================
+/dist
+/build
+/.next
+/out
+/.output
+/.nuxt
+/.vuepress/dist
+/.cache
+/.parcel-cache
+/.svelte-kit
+
+# ============================================
+# ENVIRONMENT VARIABLES
+# ============================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+.env.production
+*.env
+
+# ============================================
+# IDE / EDITOR FILES
+# ============================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+*.iml
+
+# ============================================
+# OS FILES
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+~$*
+$RECYCLE.BIN/
+
+# ============================================
+# LOGS
+# ============================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# ============================================
+# TEST COVERAGE
+# ============================================
+coverage/
+.nyc_output/
+*.lcov
+*.coverage
+
+# ============================================
+# CACHE
+# ============================================
+.eslintcache
+*.tsbuildinfo
+*.tsbuildinfo.*
+.next/cache/
+.vercel/
+/.vercel
+.cache/
+.parcel-cache/
+
+# ============================================
+# TEMPORARY FILES
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ============================================
+# BUNDLE ANALYZER
+# ============================================
+stats.html
+stats.json
+bundle-stats.json
+
+# ============================================
+# DOCKER
+# ============================================
+docker-compose.override.yml
+.dockerignore
+
+# ============================================
+# MISC
+# ============================================
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.p7b
+*.jks
+*.pfx
+*.p8
+*.csr
+*.der
+*.crl
+*.spc
+*.cst
+*.sst
+*.p7c
+*.p7s
+*.p7z
+*.p7m
+*.p7
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+*.sig
+*.signtool
+*.snk
+*.pvk
+*.cer
+*.crt
+*.der
+*.pem
+*.cert
+*.key
+*.csr
+*.crl
+*.p7b
+*.p7c
+*.p7s
+*.p7m
+*.p7
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+*.sig
+*.signtool
+*.snk
+*.pvk
+*.cer
+
+# ============================================
+# TERRAFORM
+# ============================================
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# ============================================
+# GITHUB
+# ============================================
+.github/
+!.github/workflows/
+!.github/CODEOWNERS
+
+# ============================================
+# CYPRESS
+# ============================================
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# ============================================
+# PLAYWRIGHT
+# ============================================
+playwright-report/
+test-results/
+playwright/.cache/
+
+# ============================================
+# STORYBOOK
+# ============================================
+storybook-static/
+*.stories.*.js
+*.stories.*.ts
+*.stories.*.jsx
+*.stories.*.tsx
+
+# ============================================
+# SENTRY
+# ============================================
+.sentry/
+sentry.properties
+
+# ============================================
+# DEPLOYMENT
+# ============================================
+*.deploy
+*.deploy.*
+*.tgz
+*.tar.gz
+*.zip
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+*.lzma
+*.zst
+*.zstd
+*.br
+*.lz4
+*.snappy
+*.zlib
+*.lzo
+
+# ============================================
+# APPLICATION SPECIFIC
+# ============================================
+# Depending on your stack
+/app/dist
+/app/build
+/app/.next
+/app/out
+/app/node_modules
+/app/.env
+/app/.env.local
+/app/.env.*.local
+
+# ============================================
+# MINIFIED FILES
+# ============================================
+*.min.js
+*.min.css
+*.min.js.map
+*.min.css.map
+
+# ============================================
+# SOURCE MAPS (production)
+# ============================================
+*.map
+
+# ============================================
+# DEPENDENCY LOCK FILES (optional)
+# ============================================
+# Uncomment if you want to ignore lock files
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
